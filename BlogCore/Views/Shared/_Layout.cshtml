@@ -34,7 +34,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Administar Contenido</a>
                             <div class="dropdown-menu">                              
-                                <a asp-area="Admin" asp-controller="Categorias" asp-action="Index" class="dropdown-item">Categorias</a>
+                                <a asp-area="Admin" asp-controller="Categorias" asp-action="Index" class="dropdown      -item">Categorias</a>
                                 <a asp-area="Admin" asp-controller="Categorias" asp-action="Articulos" class="dropdown-item">Articulos</a>
                                 <a asp-area="Admin" asp-controller="Categorias" asp-action="Sliders" class="dropdown-item">Sliders</a>
                                 <a asp-area="Admin" asp-controller="Categorias" asp-action="Usuarios" class="dropdown-item">Usuarios</a>
@@ -46,6 +46,7 @@
                         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                     </form>
                 </div>
+                <partial name="_LoginPartial"/>
             </div>
         </nav>
     </header>
